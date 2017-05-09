@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
-class Header extends Component {
+class SubHeader extends Component {
     render() {
         return (
-            <Navbar className="header">
-
+            <Navbar>
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <a href="#">React-Bootstrap</a>
+                    </Navbar.Brand>
+                </Navbar.Header>
                 <Nav>
                     <NavItem eventKey={1} href="#">Link</NavItem>
                     <NavItem eventKey={2} href="#">Link</NavItem>
@@ -17,15 +21,10 @@ class Header extends Component {
                         <MenuItem eventKey={3.4}>Separated link</MenuItem>
                     </NavDropdown>
                 </Nav>
-                <Navbar.Header>
-                    <Navbar.Brand className="navbarBrand">
-                        <a href="#">React-Bootstrap</a>
-                    </Navbar.Brand>
-                </Navbar.Header>
             </Navbar>
         )
     }
 }
 
 
-export default Header;
+export default SubHeader;
