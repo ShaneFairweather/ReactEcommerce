@@ -7,8 +7,28 @@
   background-color: white;
   color: #333; }
   .header .navbarBrand {
-    color: #333;
+    color: #333333;
     font-size: 2em;
     text-align: center; }
+
+/*========Banner========*/
+.banner {
+  background-color: lightblue;
+  height: 377px; }
+  .banner .bannerButton {
+    border-radius: 0;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 25px; }
+
+/*========Front Page========*/
+.frontPageBlock {
+  height: 430px;
+  background-color: lightblue; }
+
+figcaption {
+  text-align: center; }
 
 /*# sourceMappingURL=App.css.map */

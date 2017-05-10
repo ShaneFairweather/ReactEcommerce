@@ -1,3 +1,6 @@
+$dark: #333333;
+$light: #ffffff;
+
 .App {
   padding: 0;
 }
@@ -9,9 +12,34 @@
   background-color: white;
   color: #333;
   .navbarBrand {
-    color: #333;
+    color: $dark;
     font-size: 2em;
     text-align: center;
   }
 }
 
+
+/*========Banner========*/
+
+.banner {
+  background-color: lightblue;
+  height: 377px;
+  .bannerButton {
+    border-radius: 0;
+    border: none;
+    background-color: $dark;
+    color: $light;
+    text-align: center;
+    padding: 8px 25px;
+  }
+}
+
+/*========Front Page========*/
+.frontPageBlock {
+  height: 430px;
+  background-color: lightblue;
+}
+
+figcaption {
+  text-align: center;
+}
