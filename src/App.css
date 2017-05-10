@@ -1,8 +1,29 @@
+/*========Variables========*/
+/*========General========*/
 .App {
-  padding: 0; }
+  padding: 0;
+  font-family: "Montserrat", sans-serif; }
+
+hr {
+  border-top: 1px solid #dedede; }
+
+section {
+  padding: 6rem 8rem 3rem; }
+
+.light {
+  background-color: #ffffff; }
+
+.dark {
+  background-color: #f8f8f8; }
+  .dark .sectionTitle div {
+    background-color: #f8f8f8; }
+
+.action {
+  color: red; }
 
 /*========Header========*/
 .header {
+  height: 90px;
   margin-bottom: 0;
   background-color: white;
   color: #333; }
@@ -10,6 +31,15 @@
     color: #333333;
     font-size: 2em;
     text-align: center; }
+
+/*========Sub Header========*/
+.subHeader {
+  margin-bottom: 0; }
+
+.searchButton {
+  position: relative;
+  left: -9px;
+  border-radius: 0 4px 4px 0; }
 
 /*========Banner========*/
 .banner {
@@ -30,5 +60,44 @@
 
 figcaption {
   text-align: center; }
+
+.sectionTitle:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 6px;
+  left: 0;
+  background-color: #dedede;
+  z-index: -1; }
+
+.titleBackground {
+  background-color: white;
+  z-index: 4; }
+
+.sectionTitle {
+  text-align: center;
+  position: relative;
+  font-family: 'ProximaNova Semibold',sans-serif;
+  text-transform: uppercase;
+  top: -5px;
+  z-index: 5; }
+  .sectionTitle div {
+    background-color: white;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: -25px; }
+    .sectionTitle div h3 {
+      letter-spacing: 3px;
+      margin: 20px 25px;
+      font-weight: 500;
+      font-size: 23px; }
+
+.darkerSection {
+  background-color: #f8f8f8;
+  margin: 0 100px; }
+  .darkerSection div {
+    background-color: #f8f8f8; }
 
 /*# sourceMappingURL=App.css.map */

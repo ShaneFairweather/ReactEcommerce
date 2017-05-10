@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl, FormGroup, Button, Glyphicon } from 'react-bootstrap';
 
 class SubHeader extends Component {
     render() {
         return (
-            <Navbar>
+            <Navbar className="subHeader">
                 <Nav>
-                    <NavItem eventKey={1} href="#">Link</NavItem>
-                    <NavItem eventKey={2} href="#">Link</NavItem>
-                    <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                        <MenuItem eventKey={3.1}>Action</MenuItem>
-                        <MenuItem eventKey={3.2}>Another action</MenuItem>
-                        <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                        <MenuItem divider />
-                        <MenuItem eventKey={3.4}>Separated link</MenuItem>
-                    </NavDropdown>
+                    <NavItem eventKey={1} href="#">Novelty</NavItem>
+                    <NavItem eventKey={2} href="#">Lifestyle</NavItem>
+                    <NavItem eventKey={3} href="#">Clothing</NavItem>
+                    <NavItem eventKey={4} href="#">Footwear</NavItem>
+                    <NavItem eventKey={5} href="#">Accessories</NavItem>
+                    <NavItem eventKey={6} href="#">Brands</NavItem>
+                    <NavItem eventKey={7} href="#">Premium</NavItem>
+                    <NavItem eventKey={7} href="#">Sport</NavItem>
+                    <NavItem eventKey={7} href="#"><span className="action">Sale</span></NavItem>
+                    <Navbar.Form pullRight>
+                        <FormGroup>
+                            <FormControl type="text" placeholder="Search" />
+                        </FormGroup>
+                        {' '}
+                        <Button type="submit" className="searchButton"><Glyphicon glyph="search" /></Button>
+                    </Navbar.Form>
                 </Nav>
             </Navbar>
         )
