@@ -100,4 +100,16 @@ figcaption {
   .darkerSection div {
     background-color: #f8f8f8; }
 
+/*===============Footer===============*/
+footer {
+  background-color: #fafafa; }
+
+.footerHeader {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 1.5px; }
+
+ul li {
+  text-decoration: none; }
+
 /*# sourceMappingURL=App.css.map */

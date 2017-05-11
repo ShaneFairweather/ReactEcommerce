@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import Brands from './brands';
 import Findout from './findout';
 import Recommended from './recommended';
+import Footer from './footer';
 
 const FrontPage = () => {
     return (
@@ -62,6 +63,7 @@ const FrontPage = () => {
             <Recommended/>
             <Brands/>
             <Findout/>
+            <Footer/>
         </div>
     )
 }

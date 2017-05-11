@@ -134,3 +134,23 @@ figcaption {
     background-color: $altBackground;
   }
 }
+
+
+
+/*===============Footer===============*/
+
+footer {
+  background-color: #fafafa;
+}
+
+.footerHeader {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+ul {
+  li {
+    text-decoration: none;
+  }
+}
