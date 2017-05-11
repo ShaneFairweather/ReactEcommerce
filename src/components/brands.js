@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import BannerBar from './bannerBar';
+import BrandBar from './brandBar';
 
 const Brands = () => {
     return (
@@ -46,7 +46,7 @@ const Brands = () => {
                 </div>
             </span>
             <br />
-            <BannerBar gender="men"/>
+            <BrandBar gender="men"/>
         </section>
 
     )

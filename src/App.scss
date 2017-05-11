@@ -136,11 +136,27 @@ figcaption {
 }
 
 
+.brandBar {
+  img {
+    height: 80px;
+    width: 130px;
+  }
+}
+
 
 /*===============Footer===============*/
 
 footer {
   background-color: #fafafa;
+  padding: 6rem 8rem 3rem;
+  h6 {
+    padding-left: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  img {
+    text-align: center;
+  }
 }
 
 .footerHeader {
@@ -150,7 +166,74 @@ footer {
 }
 
 ul {
+  padding-left: 8px;
   li {
-    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 5px;
+    color: $subtext;
+    cursor: pointer;
+    &:hover {
+      color: $dark;
+      transition: .3s;
+    }
   }
 }
+
+i {
+
+}
+
+.fa {
+  font-size: 1.4em;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 50%;
+  color: $subtext;
+  &:hover {
+    color: $dark;
+    transition: .3s;
+  }
+  &:first-child {
+    padding-left: 1px;
+  }
+}
+
+.facebook {
+
+}
+
+.socialMediaBar {
+  padding: 0;
+  li {
+    display: inline;
+  }
+}
+
+.paymentBadgeContainer {
+  position: relative;
+  left: 5px;
+  .paymentBadge {
+    height: 75px;
+    width: 100px;
+  }
+}
+
+
+
+.storeBadgeContainer {
+  position: relative;
+  top: -30px;
+  left: 7px;
+  .storeBadge {
+    height: 108px;
+    width: 108px;
+    padding: 0;
+  }
+  .google {
+    position: relative;
+    left: -30px;
+  }
+}
+
+
+

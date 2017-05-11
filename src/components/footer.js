@@ -1,5 +1,11 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import appstore from '../../assets/img/app-store-badge.png';
+import googleplay from '../../assets/img/google-play-badge-128x128.png';
+import mastercard from '../../assets/img/Master-Card-icon.png';
+import visa from '../../assets/img/Visa-icon.png';
+import paypal from '../../assets/img/Paypal-icon.png';
+
 
 
 const Footer = () => {
@@ -22,21 +28,34 @@ const Footer = () => {
                 </Col>
                 <Col xs={6} md={3}>
                     <h6 className="footerHeader">Social media</h6>
-                    <ul>
-                        <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><i class="fa fa-envira" aria-hidden="true"></i>
+                    <ul className="socialMediaBar">
+                        <li><a><i className="fa fa-google-plus-official" aria-hidden="true"></i>
+                        </a></li>
+                        <li><i className="fa fa-youtube" aria-hidden="true"></i>
                         </li>
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li className="facebook"><i className="fa fa-facebook" aria-hidden="true"></i>
+                        </li>
+                        <li><i className="fa fa-twitter" aria-hidden="true"></i>
+                        </li>
+                        <li><i className="fa fa-instagram" aria-hidden="true"></i>
+                        </li>
                     </ul>
                 </Col>
                 <Col xs={6} md={3}>
                     <h6 className="footerHeader">Payment Methods</h6>
+                    <Row className="paymentBadgeContainer">
+                        <Col xs={3} md={7}><img className="paymentBadge" src={mastercard} alt="mastercard"/></Col>
+                        <Col xs={3} md={7}><img className="paymentBadge" src={visa} alt="visa"/></Col>
+                        <Col xs={3} md={7}><img className="paymentBadge" src={paypal} alt="paypal"/></Col>
+
+                    </Row>
                 </Col>
                 <Col xs={6} md={3}>
                     <h6 className="footerHeader">mobile</h6>
+                    <Row className="storeBadgeContainer">
+                        <Col xs={3} md={6}><img className="storeBadge apple" src={appstore} alt="appstore"/></Col>
+                        <Col xs={3} md={6}><img className="storeBadge google" src={googleplay} alt="googleplay"/></Col>
+                    </Row>
                 </Col>
             </Row>
         </footer>

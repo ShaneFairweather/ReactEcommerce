@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Glyphicon } from 'react-bootstrap';
 
 class Header extends Component {
     render() {
@@ -24,6 +24,8 @@ class Header extends Component {
                         <MenuItem divider />
                         <MenuItem eventKey={3.4}>Log Out</MenuItem>
                     </NavDropdown>
+                    <NavItem eventKey={4}>Favorites</NavItem>
+                    <NavItem eventKey={4}><Glyphicon glyph="cart"/>Cart</NavItem>
                 </Nav>
             </Navbar>
         )

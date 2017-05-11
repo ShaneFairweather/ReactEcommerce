@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import BannerBar from './bannerBar';
+import BannerBar from './brandBar';
 
 const Extra = () => {
     return (

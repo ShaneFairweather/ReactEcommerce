@@ -100,16 +100,71 @@ figcaption {
   .darkerSection div {
     background-color: #f8f8f8; }
 
+.brandBar img {
+  height: 80px;
+  width: 130px; }
+
 /*===============Footer===============*/
 footer {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  padding: 6rem 8rem 3rem; }
+  footer h6 {
+    padding-left: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 0; }
+  footer img {
+    text-align: center; }
 
 .footerHeader {
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 1.5px; }
 
-ul li {
-  text-decoration: none; }
+ul {
+  padding-left: 8px; }
+  ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    color: #888888;
+    cursor: pointer; }
+    ul li:hover {
+      color: #333333;
+      transition: .3s; }
+
+.fa {
+  font-size: 1.4em;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 50%;
+  color: #888888; }
+  .fa:hover {
+    color: #333333;
+    transition: .3s; }
+  .fa:first-child {
+    padding-left: 1px; }
+
+.socialMediaBar {
+  padding: 0; }
+  .socialMediaBar li {
+    display: inline; }
+
+.paymentBadgeContainer {
+  position: relative;
+  left: 5px; }
+  .paymentBadgeContainer .paymentBadge {
+    height: 75px;
+    width: 100px; }
+
+.storeBadgeContainer {
+  position: relative;
+  top: -30px;
+  left: 7px; }
+  .storeBadgeContainer .storeBadge {
+    height: 108px;
+    width: 108px;
+    padding: 0; }
+  .storeBadgeContainer .google {
+    position: relative;
+    left: -30px; }
 
 /*# sourceMappingURL=App.css.map */
