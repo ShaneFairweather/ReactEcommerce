@@ -141,6 +141,14 @@ figcaption {
     height: 80px;
     width: 130px;
   }
+  #tommy {
+    width: 160px;
+  }
+  #mango {
+    height: 40px;
+    position: relative;
+    top: 30px;
+  }
 }
 
 
@@ -211,10 +219,10 @@ i {
 
 .paymentBadgeContainer {
   position: relative;
-  left: 5px;
+  left: 6px;
   .paymentBadge {
-    height: 75px;
-    width: 100px;
+    height: 45px;
+    width: 50px;
   }
 }
 

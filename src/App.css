@@ -103,6 +103,12 @@ figcaption {
 .brandBar img {
   height: 80px;
   width: 130px; }
+.brandBar #tommy {
+  width: 160px; }
+.brandBar #mango {
+  height: 40px;
+  position: relative;
+  top: 30px; }
 
 /*===============Footer===============*/
 footer {
@@ -150,10 +156,10 @@ ul {
 
 .paymentBadgeContainer {
   position: relative;
-  left: 5px; }
+  left: 6px; }
   .paymentBadgeContainer .paymentBadge {
-    height: 75px;
-    width: 100px; }
+    height: 45px;
+    width: 50px; }
 
 .storeBadgeContainer {
   position: relative;
